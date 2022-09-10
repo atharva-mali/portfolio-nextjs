@@ -33,12 +33,16 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
-        <Image
-          src="/../public/assets/navLogo.png"
-          alt="/"
-          width="125"
-          height="50"
-        />
+        <Link href="/">
+          <a>
+            <Image
+              src="/../public/assets/navLogo.png"
+              alt="/"
+              width="125"
+              height="50"
+            />
+          </a>
+        </Link>
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -71,12 +75,14 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-
+      {/* Mobile Menu */}
+      {/* Overlay */}
       <div
         className={
           nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }
       >
+        {/* Side Drawer Menu */}
         <div
           className={
             nav
@@ -86,12 +92,16 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src="/../public/assets/navLogo.png"
-                width="87"
-                height="35"
-                alt="/"
-              />
+              <Link href="/">
+                <a>
+                  <Image
+                    src="/../public/assets/navLogo.png"
+                    width="87"
+                    height="35"
+                    alt="/"
+                  />
+                </a>
+              </Link>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -110,19 +120,19 @@ const Navbar = () => {
               <Link href="/">
                 <li className="py-4 text-sm">Home</li>
               </Link>
-              <Link href="/">
+              <Link href="#about">
                 <li className="py-4 text-sm">About</li>
               </Link>
-              <Link href="/">
+              <Link href="#skills">
                 <li className="py-4 text-sm">Skills</li>
               </Link>
               <Link href="/">
                 <li className="py-4 text-sm">Resume/CV</li>
               </Link>
-              <Link href="/">
+              <Link href="#projects">
                 <li className="py-4 text-sm">Projects</li>
               </Link>
-              <Link href="/">
+              <Link href="#contact">
                 <li className="py-4 text-sm">Contact</li>
               </Link>
             </ul>
