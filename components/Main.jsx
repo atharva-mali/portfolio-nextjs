@@ -22,18 +22,38 @@ const Main = () => {
             learning back-end technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
-            </div>
+            <a
+              href="https://in.linkedin.com/in/atharvamali3081"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaLinkedinIn />
+              </div>
+            </a>
+            <a
+              href="https://github.com/atharva-mali"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaGithub />
+              </div>
+            </a>
+            <a href="/#contact">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineMail />
+              </div>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1Jl-EHlWJ9v8fl0Dcpl1aPn9WJxHkiLw9/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <BsFillPersonLinesFill />
+              </div>
+            </a>
           </div>
         </div>
       </div>
