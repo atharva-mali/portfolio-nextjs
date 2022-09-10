@@ -20,7 +20,7 @@ const Projects = () => {
             title="AM Media (Youtube Clone)"
             projectTechnology="React JS"
             projectImg={AMMediaImg}
-            projectUrl="/modern-portfolio-website"
+            projectUrl="/amMedia"
           />
           <ProjectItem
             title="Modern UI/UX Portfolio Website"
@@ -32,13 +32,13 @@ const Projects = () => {
             title="Shahi Khadya Restaurant"
             projectTechnology="PHP"
             projectImg={ShahiKhadyaImg}
-            projectUrl="/modern-portfolio-website"
+            projectUrl="/shahiKhadyaRestaurant"
           />
           <ProjectItem
             title="Mobi Store"
             projectTechnology="HTML/CSS"
             projectImg={MobiStoreImg}
-            projectUrl="/modern-portfolio-website"
+            projectUrl="/mobiStore"
           />
         </div>
       </div>

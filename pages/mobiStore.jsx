@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import AtharvaMaliImg from "../public/assets/projects/Atharva-Mali.png";
+import MobiStoreImg from "../public/assets/projects/Mobi-Store.png";
 import { BsFillStarFill } from "react-icons/bs";
 import Link from "next/link";
 
-const reactPortfolio = () => {
+const mobiStore = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,11 +13,11 @@ const reactPortfolio = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={AtharvaMaliImg}
+          src={MobiStoreImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Netflix App</h2>
+          <h2 className="py-2">Mobi Store</h2>
           <h3>React JS / Tailwind / Firebase</h3>
         </div>
       </div>
@@ -80,4 +80,4 @@ const reactPortfolio = () => {
   );
 };
 
-export default reactPortfolio;
+export default mobiStore;
