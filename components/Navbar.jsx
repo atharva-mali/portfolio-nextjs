@@ -4,29 +4,29 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsPersonLinesFill, BsTwitter } from "react-icons/bs";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setLinkColor] = useState("#1f2937");
-  const router = useRouter();
+  // const router = useRouter();
 
-  useEffect(() => {
-    if (
-      router.asPath === "/amMedia" ||
-      router.asPath === "/mobiStore" ||
-      router.asPath === "/reactPortfolio" ||
-      router.asPath === "/shahiKhadyaRestaurant"
-    ) {
-      setNavBg("transparent");
-      setLinkColor("#ecf0f3");
-    } else {
-      setNavBg("#ecf0f3");
-      setLinkColor("#1f2937");
-    }
-  }, [router]);
+  // useEffect(() => {
+  //   if (
+  //     router.asPath === "/amMedia" ||
+  //     router.asPath === "/mobiStore" ||
+  //     router.asPath === "/reactPortfolio" ||
+  //     router.asPath === "/shahiKhadyaRestaurant"
+  //   ) {
+  //     setNavBg("transparent");
+  //     setLinkColor("#ecf0f3");
+  //   } else {
+  //     setNavBg("#ecf0f3");
+  //     setLinkColor("#1f2937");
+  //   }
+  // }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -68,10 +68,10 @@ const Navbar = () => {
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="#about">
+            <Link href="/#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="#skills">
+            <Link href="/#skills">
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
             <Link href="/">
@@ -79,12 +79,12 @@ const Navbar = () => {
                 Resume/CV
               </li>
             </Link>
-            <Link href="#projects">
+            <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="#contact">
+            <Link href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
@@ -142,12 +142,12 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href="#about">
+              <Link href="/#about">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   About
                 </li>
               </Link>
-              <Link href="#skills">
+              <Link href="/#skills">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Skills
                 </li>
@@ -157,12 +157,12 @@ const Navbar = () => {
                   Resume/CV
                 </li>
               </Link>
-              <Link href="#projects">
+              <Link href="/#projects">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Projects
                 </li>
               </Link>
-              <Link href="#contact">
+              <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
                 </li>
