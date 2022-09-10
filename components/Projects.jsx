@@ -26,7 +26,7 @@ const Projects = () => {
             title="Modern UI/UX Portfolio Website"
             projectTechnology="React JS"
             projectImg={AtharvaMaliImg}
-            projectUrl="/modern-portfolio-website"
+            projectUrl="/reactPortfolio"
           />
           <ProjectItem
             title="Shahi Khadya Restaurant"
