@@ -23,7 +23,7 @@ const Main = () => {
             learning back-end technologies.
           </p>
           <Link href="/#projects">
-            <button className="p-3 text-gray-100 m-2">View Work</button>
+            <button className="p-3 text-gray-100 m-2 hover:scale-105">View Work</button>
           </Link>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
