@@ -5,6 +5,7 @@ import AtharvaMaliImg from "../public/assets/projects/Atharva-Mali.png";
 import AMMediaImg from "../public/assets/projects/AM-Media.png";
 import ShahiKhadyaImg from "../public/assets/projects/Shahi-Khadya-Restaurant.png";
 import MobiStoreImg from "../public/assets/projects/Mobi-Store.png";
+import PersonalPortfolioImg from "../public/assets/projects/Nextjs-Portfolio.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -16,6 +17,12 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Personal Portfolio"
+            projectTechnology="React JS"
+            projectImg={PersonalPortfolioImg}
+            projectUrl="/personalPortfolio"
+          />
           <ProjectItem
             title="AM Media (Youtube Clone)"
             projectTechnology="React JS"
