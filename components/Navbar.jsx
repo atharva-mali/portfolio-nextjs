@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsPersonLinesFill, BsTwitter } from "react-icons/bs";
-// import { useRouter } from "next/router";
 import NavLogo from "../public/assets/navLogo.png";
 
 const Navbar = () => {
@@ -12,22 +11,6 @@ const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setLinkColor] = useState("#1f2937");
-  // const router = useRouter();
-
-  // useEffect(() => {
-  //   if (
-  //     router.asPath === "/amMedia" ||
-  //     router.asPath === "/mobiStore" ||
-  //     router.asPath === "/reactPortfolio" ||
-  //     router.asPath === "/shahiKhadyaRestaurant"
-  //   ) {
-  //     setNavBg("transparent");
-  //     setLinkColor("#ecf0f3");
-  //   } else {
-  //     setNavBg("#ecf0f3");
-  //     setLinkColor("#1f2937");
-  //   }
-  // }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -76,11 +59,11 @@ const Navbar = () => {
             <Link href="/#skills">
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href="/">
+            <a href="https://drive.google.com/file/d/1Jl-EHlWJ9v8fl0Dcpl1aPn9WJxHkiLw9/view?usp=sharing">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Resume/CV
               </li>
-            </Link>
+            </a>
             <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
