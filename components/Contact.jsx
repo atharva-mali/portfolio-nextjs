@@ -31,48 +31,24 @@ const Contact = () => {
                 <p>Front-End Developer</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
-                  me and let&apos;s talk.
+                  me and let's talk.
                 </p>
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <Link
-                    href="https://github.com/atharva-mali"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <FaLinkedinIn />
-                    </div>
-                  </Link>
-                  <Link
-                    href="https://github.com/atharva-mali"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <FaGithub />
-                    </div>
-                  </Link>
-                  <Link
-                    href="https://github.com/atharva-mali"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <AiOutlineMail />
-                    </div>
-                  </Link>
-                  <Link
-                    href="https://github.com/atharva-mali"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <BsFillPersonLinesFill />
-                    </div>
-                  </Link>
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <FaLinkedinIn />
+                  </div>
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <FaGithub />
+                  </div>
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <AiOutlineMail />
+                  </div>
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <BsFillPersonLinesFill />
+                  </div>
                 </div>
               </div>
             </div>
