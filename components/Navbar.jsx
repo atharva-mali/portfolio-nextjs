@@ -54,14 +54,14 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
         <Link href="/">
-          <a>
+          <Link>
             <Image
               src="/../public/assets/navLogo.png"
               alt="/"
               width="125"
               height="50"
             />
-          </a>
+          </Link>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -113,14 +113,14 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <a>
+                <Link>
                   <Image
                     src="/../public/assets/navLogo.png"
                     width="87"
                     height="35"
                     alt="/"
                   />
-                </a>
+                </Link>
               </Link>
               <div
                 onClick={handleNav}
@@ -131,7 +131,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let's build something legendary together
+                Let&apos;s build something legendary together
               </p>
             </div>
           </div>
@@ -170,7 +170,7 @@ const Navbar = () => {
             </ul>
             <div className="pt-10">
               <p className="uppercase tracking-widest text-[#5651e5]">
-                Let's Connect
+                Let&apos;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
