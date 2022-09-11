@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -21,6 +22,9 @@ const Main = () => {
             I'm focused on building responsive front-end web applications while
             learning back-end technologies.
           </p>
+          <Link href="/#projects">
+            <button className="p-3 text-gray-100 m-2">View Work</button>
+          </Link>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
               href="https://in.linkedin.com/in/atharvamali3081"
