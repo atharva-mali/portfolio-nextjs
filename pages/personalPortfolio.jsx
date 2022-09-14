@@ -6,7 +6,7 @@ import PersonalPortfolioImg from "../public/assets/projects/Nextjs-Portfolio.png
 
 const personalPortfolio = () => {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-x-hidden">
       <div className="w-screen h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image
@@ -38,7 +38,7 @@ const personalPortfolio = () => {
             management.
           </p>
           <a
-            href="https://github.com/fireclint/netflix-react-tailwind"
+            href="https://github.com/atharva-mali/portfolio-nextjs"
             target="_blank"
             rel="noreferrer"
           >
@@ -47,7 +47,7 @@ const personalPortfolio = () => {
             </button>
           </a>
           <a
-            href="https://fireclint.github.io/netflix-react-tailwind/"
+            href="https://atharva-mali.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -59,19 +59,24 @@ const personalPortfolio = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <BsFillStarFill className="pr-1 mr-1 ml-2" /> React
+                <BsFillStarFill className="pr-1 mr-1 ml-2 text-[#5651e5]" />{" "}
+                React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <BsFillStarFill className="pr-1 mr-1 ml-2" /> Tailwind
+                <BsFillStarFill className="pr-1 mr-1 ml-2 text-[#5651e5]" />{" "}
+                Tailwind
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <BsFillStarFill className="pr-1 mr-1 ml-2" /> Javascript
+                <BsFillStarFill className="pr-1 mr-1 ml-2 text-[#5651e5]" />{" "}
+                Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <BsFillStarFill className="pr-1 mr-1 ml-2" /> Firebase
+                <BsFillStarFill className="pr-1 mr-1 ml-2 text-[#5651e5]" />{" "}
+                Firebase
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <BsFillStarFill className="pr-1 mr-1 ml-2" /> IMDB API
+                <BsFillStarFill className="pr-1 mr-1 ml-2 text-[#5651e5]" />{" "}
+                IMDB API
               </p>
             </div>
           </div>
